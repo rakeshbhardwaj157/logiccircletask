@@ -24,7 +24,8 @@
 									</ul>
 						</div>
 						<div class="prod-ser-pricing-sign-up">
-								<a href="/signup" class="btn-buy btn-danger">Buy</a>
+								<a href="/register" class="btn-buy btn-danger">Buy</a>
+								
 								
 						</div>
 					</div>

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
     <style>
+   
 .prod-ser-pricing{
     margin: 0 -15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
