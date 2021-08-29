@@ -32,7 +32,11 @@ class UserController extends Controller
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
         
-        $user = User::create(request(['name', 'email', 'password']));
+        $user = User::create([
+                'name' => $request->name,
+                'email' => $request->email,
+                'password' => Hash::make($request->password),
+            ]);
         
         
         view()->share(['product'=>$product_data->title,'name'=>$request->name]);  
@@ -68,6 +72,6 @@ class UserController extends Controller
         $headers = array(
               'Content-Type: application/octet-stream',
             );
-        return Response::download($file, 'my-filename.pdf', $headers);
+        return Response::download($file, 'product-subscription.pdf', $headers);
 }
 }
