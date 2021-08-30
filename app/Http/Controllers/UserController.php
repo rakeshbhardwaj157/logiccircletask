@@ -73,5 +73,10 @@ class UserController extends Controller
               'Content-Type: application/octet-stream',
             );
         return Response::download($file, 'product-subscription.pdf', $headers);
-}
+    }
+
+    public function Login(){
+        return view('login'); 
+        
+    }
 }

@@ -24,8 +24,8 @@
 									</ul>
 						</div>
 						<div class="prod-ser-pricing-sign-up">
-								<a href="/register" class="btn-buy btn-danger">Buy</a>
-								
+								<a href="/signup/{{ $product->id }}" class="btn-buy btn-danger">Buy</a>
+								<a href="/product/{{ $product->slug }}" class="btn-more btn-primary">More</a>
 								
 						</div>
 					</div>
